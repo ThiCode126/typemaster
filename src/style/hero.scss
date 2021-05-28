@@ -1,0 +1,39 @@
+#hero {
+  overflow-x: hidden;
+  margin-bottom: 24px;
+
+  .in-section {
+    display: grid;
+    gap: 64px;
+    grid-template-columns: 1fr;
+
+    p {
+      margin: 32px 0;
+      color: var(--grey-grey);
+    }
+
+    .order {
+      display: flex;
+      align-items: center;
+
+      span {
+        margin-left: 32px;
+        color: var(--grey-grey);
+        text-transform: uppercase;
+      }
+    }
+
+    .content-img {
+      width: 327px;
+
+      img.keyboard {
+        width: 372px;
+        height: 331px;
+        border-radius: 8px;
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+}

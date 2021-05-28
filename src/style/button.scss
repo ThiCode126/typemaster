@@ -1,0 +1,30 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 151px;
+  height: 48px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &.btn-grey {
+    color: var(--grey-dark);
+    background: var(--grey-light);
+
+    &:hover {
+      color: var(--white-white);
+      background: var(--grey-dark);
+    }
+  }
+
+  &.btn-orange {
+    color: var(--white-white);
+    background: var(--orange-dark);
+
+    &:hover {
+      background: var(--grey-light);
+    }
+  }
+}

@@ -1,0 +1,37 @@
+#second {
+  margin-bottom: 96px;
+
+  .in-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 64px;
+
+    .card {
+      .icon-content {
+        background: #f16718;
+        border-radius: 16px;
+        width: 65px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        img.icon {
+          width: 25.14px;
+          height: 20.24px;
+        }
+      }
+
+      h3 {
+        margin: 48px 0 24px;
+        text-align: center;
+      }
+
+      p {
+        color: var(--grey-grey);
+        text-align: center;
+      }
+    }
+  }
+}

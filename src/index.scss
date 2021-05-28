@@ -1,0 +1,13 @@
+@import "~sanitize.css";
+@import "~sanitize.css/forms.css";
+@import "~sanitize.css/typography.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap");
+
+@import "./style/vars";
+@import "./style/header.scss";
+@import "./style/button.scss";
+@import "./style/hero.scss";
+@import "./style/firstSection.scss";
+@import "./style/secondSection.scss";
+@import "./style/footer.scss";

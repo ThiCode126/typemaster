@@ -1,0 +1,65 @@
+:root {
+  --orange-dark: #f16718;
+  --orange-light: #ff9b62;
+  --grey-dark: #162542;
+  --grey-grey: #7b8bad;
+  --grey-light: #e8eff2;
+  --white-white: #fff;
+}
+
+.content-wrapper {
+  width: 327px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+/**
+* ? Tablet
+*/
+@media (min-width: 768px) {
+  .content-wrapper {
+    width: 688px;
+  }
+}
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+  .content-wrapper {
+    width: 1110px;
+  }
+
+  h1 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+}
