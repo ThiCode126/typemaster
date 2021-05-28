@@ -7,6 +7,8 @@
     gap: 64px;
 
     .card {
+      text-align: center;
+
       .icon-content {
         background: #f16718;
         border-radius: 16px;
@@ -16,22 +18,44 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-
-        img.icon {
-          width: 25.14px;
-          height: 20.24px;
-        }
       }
 
       h3 {
         margin: 48px 0 24px;
-        text-align: center;
       }
 
       p {
         color: var(--grey-grey);
-        text-align: center;
+        margin: 0;
       }
     }
   }
+}
+
+/**
+* ? Tablet
+*/
+@media (min-width: 768px) {
+  #second {
+    margin-bottom: 142px;
+
+    .in-section {
+      grid-template-columns: 1fr 1fr;
+      gap: 72px 69px;
+
+      .card {
+        text-align: left;
+
+        .icon-content {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
 }

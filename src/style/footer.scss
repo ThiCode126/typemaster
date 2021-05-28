@@ -4,6 +4,21 @@ footer {
   color: var(--grey-grey);
 
   span {
-    font-weight: bold;
+    font-weight: 900;
   }
+}
+
+/**
+* ? Tablet
+*/
+@media (min-width: 768px) {
+  footer {
+    margin-bottom: 43px;
+  }
+}
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
 }

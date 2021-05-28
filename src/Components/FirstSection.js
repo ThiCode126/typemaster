@@ -12,11 +12,13 @@ const FirstSection = ({ size }) => {
             <img src={`/assets/${device}/img-phone.png`} alt="keyboard" className="phone" />
             <img src={`/assets/${device}/image-glass-and-keyboard.jpg`} alt="keyboard" className="glass" />
           </div>
-          <h2>Mechanical Wireless Keyboard</h2>
-          <p>
-            The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety
-            of switches and keycaps, along with reliable wireless connectivity.
+          <div className="text-block">
+            <h2>Mechanical Wireless Keyboard</h2>
+            <p>
+              The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety
+              of switches and keycaps, along with reliable wireless connectivity.
           </p>
+          </div>
         </div>
       </div>
     </section>

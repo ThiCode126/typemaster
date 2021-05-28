@@ -37,3 +37,36 @@
     }
   }
 }
+
+/**
+* ? Tablet
+*/
+@media (min-width: 768px) {
+  #hero {
+    margin-bottom: 43px;
+
+    .in-section {
+      grid-template-columns: 339px auto;
+      gap: 69px;
+
+      h1 {
+        margin-top: 60px;
+      }
+
+      .content-img {
+        width: auto;
+
+        img.keyboard {
+          width: 478px;
+          height: 425px;
+        }
+      }
+    }
+  }
+}
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+}

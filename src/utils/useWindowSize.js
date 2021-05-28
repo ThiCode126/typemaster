@@ -15,9 +15,9 @@ function useWindowSize() {
 
       let newDevice;
 
-      if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 767) {
         newDevice = "mobile";
-      } else if (window.innerWidth > 768 && window.innerWidth <= 1440) {
+      } else if (window.innerWidth > 767 && window.innerWidth <= 1339) {
         newDevice = "tablet";
       } else {
         newDevice = "desktop";
