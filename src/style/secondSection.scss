@@ -40,7 +40,7 @@
     margin-bottom: 142px;
 
     .in-section {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr);
       gap: 72px 69px;
 
       .card {
@@ -58,4 +58,12 @@
 * ? DeskTop
 */
 @media (min-width: 1440px) {
+  #second {
+    margin-bottom: 128px;
+
+    .in-section {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+    }
+  }
 }

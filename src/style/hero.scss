@@ -69,4 +69,21 @@
 * ? DeskTop
 */
 @media (min-width: 1440px) {
+  #hero {
+    margin-bottom: 30px;
+
+    .in-section {
+      grid-template-columns: 445px auto;
+      gap: 125px;
+
+      .content-img {
+        width: auto;
+
+        img.keyboard {
+          width: 540px;
+          height: 480px;
+        }
+      }
+    }
+  }
 }

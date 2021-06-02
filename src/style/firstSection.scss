@@ -81,4 +81,32 @@
 * ? DeskTop
 */
 @media (min-width: 1440px) {
+  #first {
+    margin-bottom: 168px;
+
+    .in-section {
+      display: flex;
+
+      .content-img {
+        margin-bottom: 0;
+
+        .phone {
+          width: 255px;
+          height: 480px;
+        }
+
+        .glass {
+          width: 445px;
+          height: 480px;
+        }
+      }
+
+      .text-block {
+        grid-template-columns: 255px;
+        gap: 27px;
+        margin-left: 125px;
+        margin-top: 112px;
+      }
+    }
+  }
 }
