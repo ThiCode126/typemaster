@@ -4,20 +4,14 @@ This is a solution to the [Typemaster pre-launch landing page challenge on Front
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
--
-
 ### Screenshot
 
 ![](./preview.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ThiCode126/typemaster](https://github.com/ThiCode126/typemaster)
+- Live Site URL: [https://typemaster-thicode.netlify.app/](https://typemaster-thicode.netlify.app/)
 
 ## My process
 
@@ -32,6 +26,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [thicode.fr/](https://thicode.fr/)
+- Frontend Mentor - [@ThiCode126](https://www.frontendmentor.io/profile/ThiCode126)
+- Twitter - [@code_thi](https://twitter.com/code_thi)
